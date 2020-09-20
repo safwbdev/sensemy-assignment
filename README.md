@@ -6,6 +6,7 @@ Stefaan Ariz Fangman
 
 Tools:
 
+- Ponter : No functionality other than to interact with the 'Store' boxes
 - Draw Wall 1 : Draws a red square wall
 - Draw Wall 2 : Draws a red circle wall
 - Draw Store : Draws grey box with store text (is clickable with the pointer tool)
