@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  background: #283333;
+
+  #canvas {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #ffffff;
+  }
+
+  .toolbox {
+    height: 15%;
+    position: absolute;
+    background: #3a4b4b;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    bottom: 0;
+
+    .btn {
+      color: #ffffff;
+
+      &:hover,
+      &.active {
+        background: #3a4b4b;
+        border: 1px solid #ffffff;
+        cursor: pointer;
+      }
+    }
+  }
+}
